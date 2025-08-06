@@ -111,7 +111,7 @@ const Home = () => {
           </motion.h1>
           {/* Animated Subheading */}
           <motion.p
-            className="text-base sm:text-lg md:text-lg text-blue-900/80 mb-10 max-w-2xl mx-auto leading-relaxed font-normal"
+            className="text-base sm:text-lg md:text-lg text-blue-900/80 mb-10 max-w-2xl mx-auto leading-relaxed font-normal md:text-justify lg:text-center"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.0, delay: 0.3, ease: [0.25, 0.46, 0.45, 0.94] }}
