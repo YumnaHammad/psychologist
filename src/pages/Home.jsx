@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { Brain, Heart, Users, BookOpen, ArrowRight, CheckCircle, Star, Shield, Clock } from 'lucide-react';
+import HeroBackground from '../assets/Hero1.jpg';
 
 const Home = () => {
   const fadeInUp = {
@@ -59,7 +60,7 @@ const Home = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: "url('src/assets/Hero1.jpg')"
+            backgroundImage: `url(${HeroBackground})`
           }}
         />
         {/* Improved Overlay */}
